@@ -6,7 +6,6 @@
 .content-video {
     padding-bottom: 16px;
     border-bottom: 1px rgba(216, 216, 216, 0.5) solid;
-    /* position: absolute; */
 }
 .content-video_figure .cover-image {
     width: 1363px ;
@@ -18,13 +17,6 @@
     display: flex;
     align-items: flex-end;
 }
-/* .content-video_figure h3:first-of-type{
-    color: rgba(25, 38, 70, 1);
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 45.18px;
-    padding-top: 20px;
-} */
 .content-video_figure h3:last-of-type{
     color: rgba(25, 38, 70, 1);
     font-size: 36px;
@@ -489,7 +481,6 @@
         height: 100%;
         line-height: 20.08px;
         width: 73px;
-        /* overflow: hidden; */
         margin-top: 3px;
     }
     .content-channel-cover figcaption {
