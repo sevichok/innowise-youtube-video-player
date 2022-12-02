@@ -1,0 +1,25 @@
+.App {
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  max-width: 1920px;
+  max-height: 1200px;
+  overflow: hidden;
+}
+figure , p, h1, h2, h3, h4, h5, h6, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.main {
+  display: flex;
+  padding: 28px 70px 0px 80px;
+  gap: 20px;
+  justify-content: space-between;
+}
+@media screen and (max-width:320px) {
+  .main {
+    flex-direction: column;
+    padding: 0px;
+    max-height: 1024px;
+  }
+}
